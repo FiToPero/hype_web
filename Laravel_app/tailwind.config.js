@@ -14,6 +14,7 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                swiss: ['"Swiss 721 Bold Condensed"', 'Arial Narrow', 'sans-serif'],
             },
         },
     },

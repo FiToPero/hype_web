@@ -20,7 +20,6 @@ const handleScroll = () => {
     
     const scrollY = window.scrollY + window.innerHeight / 2;
     
-    // Encontrar la sección actual basada en el scroll
     let currentSection = null;
     let nextSection = null;
     
@@ -101,11 +100,11 @@ onUnmounted(() => {
 <template>
     <AuthenticatedLayout>
         <div id="bg-dashboard" class="py-12 transition-colors duration-300">
-            <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="mx-auto w-full sm:px-6 lg:px-8">
                 <div 
                     v-for="section in sections" 
                     :key="section.id"
-                    class="color-section m-3 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/30"
+                    class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10"
                     :class="section.height"
                 >
                     <div class="p-6 text-gray-900">

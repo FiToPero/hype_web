@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Swiss 721 Bold Condensed Font */
+@font-face {
+    font-family: 'Swiss 721 Bold Condensed';
+    src:
+         url('/fonts/swiss721-condensed-bt.ttf') format('ttf'),
+         url('/fonts/swiss721-bold-condensed-bt.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}

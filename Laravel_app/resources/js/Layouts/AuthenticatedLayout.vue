@@ -12,9 +12,9 @@ const showingNavigationDropdown = ref(false);
 
 <template>
     <div>
-        <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
+        <div class="min-h-screen bg-gray-900">
             <nav
-                class="border-b border-gray-100 bg-white dark:border-gray-700 dark:bg-gray-800"
+                class="fixed top-0 left-0 right-0 z-50 border-b-4 border-[#7FFA62] bg-[#212121]"
             >
                 <!-- Primary Navigation Menu -->
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -24,21 +24,17 @@ const showingNavigationDropdown = ref(false);
                             <div class="flex shrink-0 items-center">
                                 <Link :href="route('dashboard')">
                                     <ApplicationLogo
-                                        class="block h-9 w-auto fill-current text-gray-800 dark:text-gray-200"
+                                        class="mt-8 h-10 w-20"
                                     />
                                 </Link>
                             </div>
 
                             <!-- Navigation Links -->
-                            <div
-                                class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex"
-                            >
-                                <NavLink
-                                    :href="route('dashboard')"
-                                    :active="route().current('dashboard')"
-                                >
-                                    Dashboard
-                                </NavLink>
+                            <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex " >
+                                <NavLink class="font-swiss text-white text-xl font-bold" :href="route('dashboard')" :active="route().current('dashboard')"> PRODUCTS</NavLink>
+                                <NavLink class="font-swiss text-white text-xl font-bold"> BEHIND THE HYPE </NavLink>                         
+                                <NavLink class="font-swiss text-white text-xl font-bold"> NEWS </NavLink>
+                                <NavLink class="font-swiss text-white text-xl font-bold"> CONTACT US </NavLink>
                             </div>
                         </div>
 
@@ -181,7 +177,7 @@ const showingNavigationDropdown = ref(false);
 
             <!-- Page Heading -->
             <header
-                class="bg-white shadow dark:bg-gray-800"
+                class="bg-white shadow dark:bg-gray-800 mt-16"
                 v-if="$slots.header"
             >
                 <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
@@ -190,7 +186,7 @@ const showingNavigationDropdown = ref(false);
             </header>
 
             <!-- Page Content -->
-            <main>
+            <main class="pt-16">
                 <slot />
             </main>
         </div>
