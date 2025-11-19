@@ -266,75 +266,83 @@ onUnmounted(() => {
                     <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
                         <ProductSmall 
                             imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
-                            alt="Enlite Can" 
-                            text01="EXTRA LOW" 
-                            text02="SUGAR" 
+                            alt="EAA Cheesecake Can" 
+                            text01="EAA" 
+                            text02="CHEESECAKE" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
-                            alt="Enlite Can" 
-                            text01="EXTRA LOW" 
-                            text02="SUGAR" 
+                            imgSrc="/images/Performance_drinks/can-xtra-watermelon-label-product.png" 
+                            alt="EAA Watermelon Can" 
+                            text01="EAA" 
+                            text02="WATERMELON" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
-                            alt="Enlite Can" 
-                            text01="EXTRA LOW" 
-                            text02="SUGAR" 
+                            imgSrc="/images/Performance_drinks/can-mfppw-label-product-new.png" 
+                            alt="MFP Original Can" 
+                            text01="MFP" 
+                            text02="ORIGINAL" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
-                            alt="Enlite Can" 
-                            text01="EXTRA LOW" 
-                            text02="SUGAR" 
+                            imgSrc="/images/Performance_drinks/can-tropical-label-product-new1.png" 
+                            alt="Tropical Fusion Can" 
+                            text01="TROPICAL" 
+                            text02="FUSION" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
-                            alt="Enlite Can" 
-                            text01="EXTRA LOW" 
-                            text02="SUGAR" 
+                            imgSrc="/images/Performance_drinks/can-blackcurrant-label-product-new.png" 
+                            alt="Wild Blackcurrant Can" 
+                            text01="WILD" 
+                            text02="BLACKCURRANT" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
-                            alt="Enlite Can" 
-                            text01="EXTRA LOW" 
-                            text02="SUGAR" 
+                            imgSrc="/images/Performance_drinks/can-apple-label-product-new1.png" 
+                            alt="Apple & Blueberry Can" 
+                            text01="APPLE &" 
+                            text02="BLUEBERRY" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
-                            alt="Enlite Can" 
-                            text01="EXTRA LOW" 
-                            text02="SUGAR" 
+                            imgSrc="/images/Performance_drinks/shot-mfpshot-label-product-new1.png" 
+                            alt="Energy Flavour Can" 
+                            text01="ENERGY" 
+                            text02="FLAVOUR" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
-                            alt="Enlite Can" 
-                            text01="EXTRA LOW" 
-                            text02="SUGAR" 
+                            imgSrc="/images/Performance_drinks/shot-buzz-label-product-new1.png" 
+                            alt="Marshmallow Mad Candy Can" 
+                            text01="MARSHMALLOW" 
+                            text02="MAD CANDY" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
-                            alt="Enlite Can" 
-                            text01="EXTRA LOW" 
-                            text02="SUGAR" 
+                            imgSrc="/images/Performance_drinks/shot-rasp-label-product-new1.png" 
+                            alt="Blue Raspberry Can" 
+                            text01="BLUE" 
+                            text02="RASPBERRY" 
                         />
                     </div>
                 </div>
 
                 <!-- Section 3 -->
                 <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
+                    <TitleSection title01="HYDRATION DRINKS" title02="BOOST YOUR HYDRATION!" />                
                     <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
                         <ProductSmall 
-                            imgSrc="/images/can-enlite-label-product.png" 
-                            alt="Enlite Can" 
-                            text01="EXTRA LOW" 
-                            text02="SUGAR" 
+                            imgSrc="/images/hydration_drinks/can-lemon-label-product-new1.png" 
+                            alt="Lemon Lime Blast Can" 
+                            text01="LEMON" 
+                            text02="LIME BLAST" 
+                        />
+                        <ProductSmall 
+                            imgSrc="/images/hydration_drinks/can-cherry-label-product-new1.png" 
+                            alt="Cherry Apple Blast Can" 
+                            text01="CHERRY" 
+                            text02="APPLE BLAST" 
                         />
                     </div>
                 </div>
 
                 <!-- Section 4 -->
                 <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
+                    <TitleSection title01="WHEY PROTEIN" title02="ELEVATE YOUR PERFORMANCE!" />                
                     <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
                         <ProductSmall 
                             imgSrc="/images/can-enlite-label-product.png" 
@@ -347,6 +355,7 @@ onUnmounted(() => {
 
                 <!-- Section 5 -->
                 <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
+                    <TitleSection title01="HYDRATION DRINKS" title02="BOOST YOUR HYDRATION!" />                
                     <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
                         <ProductSmall 
                             imgSrc="/images/can-enlite-label-product.png" 
