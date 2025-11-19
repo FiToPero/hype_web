@@ -344,27 +344,207 @@ onUnmounted(() => {
                 <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
                     <TitleSection title01="WHEY PROTEIN" title02="ELEVATE YOUR PERFORMANCE!" />                
                     <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
-                        <ProductSmall 
-                            imgSrc="/images/can-enlite-label-product.png" 
-                            alt="Enlite Can" 
-                            text01="EXTRA LOW" 
-                            text02="SUGAR" 
+                        <ProductBig
+                            imgSrc="/images/whey_protein/whey-tub-vanilla.png" 
+                            alt="Vanilla Ice Cream Tub" 
+                            text="VANILLA ICE CREAM"
+                        />
+                        <ProductBig
+                            imgSrc="/images/whey_protein/whey-tub-chocolate.png" 
+                            alt="Chocolate Milkshake Tub" 
+                            text="CHOCOLATE MILKSHAKE"
+                        />
+                        <ProductBig 
+                            imgSrc="/images/whey_protein/whey-tub-caramel.png" 
+                            alt="Salted Caramel Tub" 
+                            text="SALTED CARAMEL"
                         />
                     </div>
                 </div>
 
                 <!-- Section 5 -->
                 <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
-                    <TitleSection title01="HYDRATION DRINKS" title02="BOOST YOUR HYDRATION!" />                
+                    <TitleSection title01="PROTEIN SHOT" title02="ONE BOOST, TOTAL SUPPORT!" />                
                     <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
-                        <ProductSmall 
-                            imgSrc="/images/can-enlite-label-product.png" 
-                            alt="Enlite Can" 
-                            text01="EXTRA LOW" 
-                            text02="SUGAR" 
+                        <ProductBig 
+                            imgSrc="/images/protein_shot/shot-berry-20gprotein-product.png" 
+                            alt="Berry Boost Can" 
+                            text01="BERRY BOOST" 
+                            text02="20G PROTEIN SHOT" 
+                        />
+                        <ProductBig 
+                            imgSrc="/images/protein_shot/shot-citrus-20gprotein-product.png" 
+                            alt="Citrus Fusion Can" 
+                            text01="CITRUS FUSION" 
+                            text02="20G PROTEIN SHOT" 
                         />
                     </div>
                 </div>
+                
+                 <!-- Section 6 -->
+                <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
+                    <TitleSection title01="ISOLATE" title02="AMPLIFY YOUR STRENGTH!" />                
+                    <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
+                        <ProductBig 
+                            imgSrc="/images/isolate/isolate-tub-vanilla.webp" 
+                            alt="Vanilla Ice Cream" 
+                            text01="VANILLA" 
+                        />
+                        <ProductBig 
+                            imgSrc="/images/isolate/isolate-tub-chocolate.webp" 
+                            alt="Chocolate Ice Cream" 
+                            text01="CHOCOLATE" 
+                        />
+                        <ProductBig 
+                            imgSrc="/images/isolate/isolate-tub-pina.webp" 
+                            alt="Pina Colada Ice Cream" 
+                            text01="PINA COLADA" 
+                        />
+                    </div>
+                </div>
+
+                 <!-- Section 7 -->
+                <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
+                    <TitleSection title01="MASS GAINER" title02="MAXIMZE GAINS, MINIMIZE EFFORT!" />                
+                    <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
+                        <ProductBig 
+                            imgSrc="/images/mass_gainer/mass-gainer-tub-vanilla.png" 
+                            alt="Vanilla Mass Gainer" 
+                            text01="VANILLA ICE CREAM" 
+                        />
+                        <ProductBig 
+                            imgSrc="/images/mass_gainer/mass-gainer-tub-chocolate.png" 
+                            alt="Chocolate Mass Gainer" 
+                            text01="CHOCOLATE BROWNIE" 
+                        />
+                        <ProductBig 
+                            imgSrc="/images/mass_gainer/mass-gainer-tub-strawberry.png" 
+                            alt="Strawberry Mass Gainer" 
+                            text01="STRAWBERRY MILKSHAKE" 
+                        />
+                    </div>
+                </div>
+
+                 <!-- Section 8 -->
+                <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
+                    <TitleSection title01="HYDRO BEEF" title02="ULTIMATE MUSCLE RECOVERY & GROWTH!" />                
+                    <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
+                        <ProductBig 
+                            imgSrc="/images/protein_shot/shot-berry-20gprotein-product.png" 
+                            alt="Berry Boost Can" 
+                            text01="BERRY BOOST" 
+                            text02="20G PROTEIN SHOT" 
+                        />
+                        <ProductBig 
+                            imgSrc="/images/protein_shot/shot-citrus-20gprotein-product.png" 
+                            alt="Citrus Fusion Can" 
+                            text01="CITRUS FUSION" 
+                            text02="20G PROTEIN SHOT" 
+                        />
+                    </div>
+                </div>
+
+                 <!-- Section 9 -->
+                <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
+                    <TitleSection title01="BCAA" title02="RAISE YOUR GAME!" />                
+                    <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
+                        <ProductBig 
+                            imgSrc="/images/protein_shot/shot-berry-20gprotein-product.png" 
+                            alt="Berry Boost Can" 
+                            text01="BERRY BOOST" 
+                            text02="20G PROTEIN SHOT" 
+                        />
+                        <ProductBig 
+                            imgSrc="/images/protein_shot/shot-citrus-20gprotein-product.png" 
+                            alt="Citrus Fusion Can" 
+                            text01="CITRUS FUSION" 
+                            text02="20G PROTEIN SHOT" 
+                        />
+                    </div>
+                </div>
+
+                 <!-- Section 10 -->
+                <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
+                    <TitleSection title01="GLUTAMINE & CREATINE" title02="BOOST YOUR WORKOUT!!!" />                
+                    <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
+                        <ProductBig 
+                            imgSrc="/images/protein_shot/shot-berry-20gprotein-product.png" 
+                            alt="Berry Boost Can" 
+                            text01="BERRY BOOST" 
+                            text02="20G PROTEIN SHOT" 
+                        />
+                        <ProductBig 
+                            imgSrc="/images/protein_shot/shot-citrus-20gprotein-product.png" 
+                            alt="Citrus Fusion Can" 
+                            text01="CITRUS FUSION" 
+                            text02="20G PROTEIN SHOT" 
+                        />
+                    </div>
+                </div>
+
+                 <!-- Section 11 -->
+                <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
+                    <TitleSection title01="L - CARNITINE" title02="REDEFINE THE WAY YOU BURN CALORIES!" />                
+                    <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
+                        <ProductBig 
+                            imgSrc="/images/protein_shot/shot-berry-20gprotein-product.png" 
+                            alt="Berry Boost Can" 
+                            text01="BERRY BOOST" 
+                            text02="20G PROTEIN SHOT" 
+                        />
+                        <ProductBig 
+                            imgSrc="/images/protein_shot/shot-citrus-20gprotein-product.png" 
+                            alt="Citrus Fusion Can" 
+                            text01="CITRUS FUSION" 
+                            text02="20G PROTEIN SHOT" 
+                        />
+                    </div>
+                </div>
+
+                 <!-- Section 12 -->
+                <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
+                    <TitleSection title01="PRE - WORKOUT" title02="EXTREME PRE-WORKOUT BOOST!" />                
+                    <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
+                        <ProductBig 
+                            imgSrc="/images/protein_shot/shot-berry-20gprotein-product.png" 
+                            alt="Berry Boost Can" 
+                            text01="BERRY BOOST" 
+                            text02="20G PROTEIN SHOT" 
+                        />
+                        <ProductBig 
+                            imgSrc="/images/protein_shot/shot-citrus-20gprotein-product.png" 
+                            alt="Citrus Fusion Can" 
+                            text01="CITRUS FUSION" 
+                            text02="20G PROTEIN SHOT" 
+                        />
+                    </div>
+                </div>
+
+                <!-- Section 13 -->
+                <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
+                    <TitleSection title01="PROTEIN BARS" title02="MADE FOR GROWTH!" />                
+                    <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
+
+                        <ProductBig 
+                            imgSrc="/images/protein_shot/shot-berry-20gprotein-product.png" 
+                            alt="Berry Boost Can" 
+                            text01="BERRY BOOST" 
+                            text02="20G PROTEIN SHOT" 
+                        />
+                        <ProductBig 
+                            imgSrc="/images/protein_shot/shot-citrus-20gprotein-product.png" 
+                            alt="Citrus Fusion Can" 
+                            text01="CITRUS FUSION" 
+                            text02="20G PROTEIN SHOT" 
+                        />
+                    </div>
+                </div>
+
+
+                <DIV>
+                    CARROUSEL DE IMÁGENES O INFORMACIÓN ADICIONAL PUEDE IR AQUÍ
+                </DIV>
+
             </div>
         </div>
     </AuthenticatedLayout>
