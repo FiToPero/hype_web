@@ -408,17 +408,17 @@ onUnmounted(() => {
                     <TitleSection title01="MASS GAINER" title02="MAXIMZE GAINS, MINIMIZE EFFORT!" />                
                     <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
                         <ProductBig 
-                            imgSrc="/images/mass_gainer/mass-gainer-tub-vanilla.png" 
+                            imgSrc="/images/mass_gainer/mass-gainer-tub-vanilla.webp" 
                             alt="Vanilla Mass Gainer" 
                             text01="VANILLA ICE CREAM" 
                         />
                         <ProductBig 
-                            imgSrc="/images/mass_gainer/mass-gainer-tub-chocolate.png" 
+                            imgSrc="/images/mass_gainer/mass-gainer-tub-chocolate.webp" 
                             alt="Chocolate Mass Gainer" 
                             text01="CHOCOLATE BROWNIE" 
                         />
                         <ProductBig 
-                            imgSrc="/images/mass_gainer/mass-gainer-tub-strawberry.png" 
+                            imgSrc="/images/mass_gainer/mass-gainer-tub-strawberry.webp" 
                             alt="Strawberry Mass Gainer" 
                             text01="STRAWBERRY MILKSHAKE" 
                         />
@@ -430,16 +430,14 @@ onUnmounted(() => {
                     <TitleSection title01="HYDRO BEEF" title02="ULTIMATE MUSCLE RECOVERY & GROWTH!" />                
                     <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
                         <ProductBig 
-                            imgSrc="/images/protein_shot/shot-berry-20gprotein-product.png" 
-                            alt="Berry Boost Can" 
-                            text01="BERRY BOOST" 
-                            text02="20G PROTEIN SHOT" 
+                            imgSrc="/images/hydro_beef/Blue-Raspberry-1.webp" 
+                            alt="Blue Raspberry Tub" 
+                            text01="BLUE RASPBERRY" 
                         />
                         <ProductBig 
-                            imgSrc="/images/protein_shot/shot-citrus-20gprotein-product.png" 
-                            alt="Citrus Fusion Can" 
-                            text01="CITRUS FUSION" 
-                            text02="20G PROTEIN SHOT" 
+                            imgSrc="/images/hydro_beef/Tropical-Beef-1" 
+                            alt="Tropical Tub" 
+                            text01="TROPICAL" 
                         />
                     </div>
                 </div>
@@ -449,16 +447,14 @@ onUnmounted(() => {
                     <TitleSection title01="BCAA" title02="RAISE YOUR GAME!" />                
                     <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
                         <ProductBig 
-                            imgSrc="/images/protein_shot/shot-berry-20gprotein-product.png" 
-                            alt="Berry Boost Can" 
-                            text01="BERRY BOOST" 
-                            text02="20G PROTEIN SHOT" 
+                            imgSrc="/images/BCAA/preeworkout-tub-blueberry-404x468-1.webp" 
+                            alt="Bherry Tub" 
+                            text01="BHERRY" 
                         />
                         <ProductBig 
-                            imgSrc="/images/protein_shot/shot-citrus-20gprotein-product.png" 
-                            alt="Citrus Fusion Can" 
-                            text01="CITRUS FUSION" 
-                            text02="20G PROTEIN SHOT" 
+                            imgSrc="/images/BCAA/bcaa-tub-tropical-404x468.webp" 
+                            alt="Tropical Tub" 
+                            text01="TROPICAL" 
                         />
                     </div>
                 </div>
@@ -468,16 +464,14 @@ onUnmounted(() => {
                     <TitleSection title01="GLUTAMINE & CREATINE" title02="BOOST YOUR WORKOUT!!!" />                
                     <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
                         <ProductBig 
-                            imgSrc="/images/protein_shot/shot-berry-20gprotein-product.png" 
-                            alt="Berry Boost Can" 
-                            text01="BERRY BOOST" 
-                            text02="20G PROTEIN SHOT" 
+                            imgSrc="/images/Glutamine&creatine/creatine-tub-404x468-1.webp" 
+                            alt="Glutamine" 
+                            text01="GLUTAMINE" 
                         />
                         <ProductBig 
-                            imgSrc="/images/protein_shot/shot-citrus-20gprotein-product.png" 
-                            alt="Citrus Fusion Can" 
-                            text01="CITRUS FUSION" 
-                            text02="20G PROTEIN SHOT" 
+                            imgSrc="/images/Glutamine&creatine/creatine-tub-404x468-1.webp" 
+                            alt="Creatine" 
+                            text01="CREATINE" 
                         />
                     </div>
                 </div>
@@ -486,17 +480,17 @@ onUnmounted(() => {
                 <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
                     <TitleSection title01="L - CARNITINE" title02="REDEFINE THE WAY YOU BURN CALORIES!" />                
                     <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
-                        <ProductBig 
-                            imgSrc="/images/protein_shot/shot-berry-20gprotein-product.png" 
-                            alt="Berry Boost Can" 
-                            text01="BERRY BOOST" 
-                            text02="20G PROTEIN SHOT" 
+                        <ProductSmall
+                            imgSrc="/images/L-Canitine/shot-lemon-Icarnitine-product.png" 
+                            alt="Lemon Carnitine" 
+                            text01="LEMON" 
+                            text02="3000 MG" 
                         />
-                        <ProductBig 
-                            imgSrc="/images/protein_shot/shot-citrus-20gprotein-product.png" 
-                            alt="Citrus Fusion Can" 
-                            text01="CITRUS FUSION" 
-                            text02="20G PROTEIN SHOT" 
+                        <ProductSmall 
+                            imgSrc="/images/L-Canitine/shot-pineapple-Icarnitine-product.png" 
+                            alt="Pineapple Carnitine" 
+                            text01="PINEAPPLE" 
+                            text02="3000 MG" 
                         />
                     </div>
                 </div>
