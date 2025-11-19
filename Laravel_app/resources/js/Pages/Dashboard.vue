@@ -193,66 +193,66 @@ onUnmounted(() => {
                     <TitleSection title01="ENERGY DRINKS" title02="Maximum Energy!" />                
                     <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">  
                         <ProductSmall 
-                            imgSrc="/images/can-mfp-label-product.png" 
+                            imgSrc="/images/Energy_drinks/can-mfp-label-product.png" 
                             alt="MFP Maximum Energy Can" 
                             text01="MAXIMUM" 
                             text02="ENERGY" 
                         />                       
                         <ProductSmall 
-                            imgSrc="/images/can-mfp-zero-sugar-label-product.png" 
+                            imgSrc="/images/Energy_drinks/can-mfp-zero-sugar-label-product.png" 
                             alt="MFP Zero Sugar Can" 
                             text01="ABSOLUTE" 
                             text02="ZERO SUGAR" 
                         />                      
                         <ProductSmall 
-                            imgSrc="/images/can-enlite-label-product.png" 
+                            imgSrc="/images/Energy_drinks/can-enlite-label-product.png" 
                             alt="Enlite Can" 
                             text01="EXTRA LOW" 
                             text02="SUGAR" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/can-buzz-label-product-new.png" 
+                            imgSrc="/images/Energy_drinks/can-buzz-label-product-new.png" 
                             alt="Buzz Marshmallow Mad Candy Can" 
                             text01="MARSHMALLOW" 
                             text02="MAD CANDY" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/can-mojito-label-product-new.png" 
+                            imgSrc="/images/Energy_drinks/can-mojito-label-product-new.png" 
                             alt="Mojito Can" 
                             text01="WILD" 
                             text02="MINT BOOST" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/can-up-label-product.png" 
+                            imgSrc="/images/Energy_drinks/can-up-label-product.png" 
                             alt="Up Can" 
                             text01="ICED BERRY" 
                             text02="MAX" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/can-twisted-label-product.png" 
+                            imgSrc="/images/Energy_drinks/can-twisted-label-product.png" 
                             alt="Twisted Can" 
                             text01="BLASTED" 
                             text02="TROPICAL" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/can-twisted-cherry-label-product.png" 
+                            imgSrc="/images/Energy_drinks/can-twisted-cherry-label-product.png" 
                             alt="Twisted Explosive Cherry Can" 
                             text01="EXPLOSIVE" 
                             text02="CHERRY" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/can-gold-label-product.png" 
+                            imgSrc="/images/Energy_drinks/can-gold-label-product.png" 
                             alt="Gold Can" 
                             text01="NON" 
                             text02="CARBONATED" 
                         />
                         <ProductSmall 
-                            imgSrc="/images/can-on-label-product.png" 
+                            imgSrc="/images/Energy_drinks/can-on-label-product.png" 
                             alt="On Can" 
                             text01="CLASSIC"
                         /> 
                         <ProductSmall 
-                            imgSrc="/images/can-after-dark-label-product.png" 
+                            imgSrc="/images/Energy_drinks/can-after-dark-label-product.png" 
                             alt="After Dark Can" 
                             text01="CINNAMON" 
                             text02="FIRE" 
@@ -262,10 +262,58 @@ onUnmounted(() => {
 
                 <!-- Section 2 -->
                 <div class="color-section m-5 overflow-hidden shadow-sm sm:rounded-lg backdrop-blur-sm bg-white/10 h-auto">
-                    <TitleSection title01="ENERGY DRINKS" title02="Maximum Energy!" />                
+                    <TitleSection title01="PERFORMANCE DRINKS" title02="DISRUPT YOUR ROUTINE!" />                
                     <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-10">
                         <ProductSmall 
-                            imgSrc="/images/can-enlite-label-product.png" 
+                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
+                            alt="Enlite Can" 
+                            text01="EXTRA LOW" 
+                            text02="SUGAR" 
+                        />
+                        <ProductSmall 
+                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
+                            alt="Enlite Can" 
+                            text01="EXTRA LOW" 
+                            text02="SUGAR" 
+                        />
+                        <ProductSmall 
+                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
+                            alt="Enlite Can" 
+                            text01="EXTRA LOW" 
+                            text02="SUGAR" 
+                        />
+                        <ProductSmall 
+                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
+                            alt="Enlite Can" 
+                            text01="EXTRA LOW" 
+                            text02="SUGAR" 
+                        />
+                        <ProductSmall 
+                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
+                            alt="Enlite Can" 
+                            text01="EXTRA LOW" 
+                            text02="SUGAR" 
+                        />
+                        <ProductSmall 
+                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
+                            alt="Enlite Can" 
+                            text01="EXTRA LOW" 
+                            text02="SUGAR" 
+                        />
+                        <ProductSmall 
+                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
+                            alt="Enlite Can" 
+                            text01="EXTRA LOW" 
+                            text02="SUGAR" 
+                        />
+                        <ProductSmall 
+                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
+                            alt="Enlite Can" 
+                            text01="EXTRA LOW" 
+                            text02="SUGAR" 
+                        />
+                        <ProductSmall 
+                            imgSrc="/images/Performance_drinks/can-xtra-cheesecake-label-product.png" 
                             alt="Enlite Can" 
                             text01="EXTRA LOW" 
                             text02="SUGAR" 
