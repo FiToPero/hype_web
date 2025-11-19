@@ -5,9 +5,20 @@
 /* Swiss 721 Bold Condensed Font */
 @font-face {
     font-family: 'Swiss 721 Bold Condensed';
-    src:
-         url('/fonts/swiss721-condensed-bt.ttf') format('ttf'),
-         url('/fonts/swiss721-bold-condensed-bt.ttf') format('ttf');
+    src: url('/fonts/Swiss 721 Bold Condensed.woff2') format('woff2'),
+         url('/fonts/Swiss 721 Bold Condensed.woff') format('woff'),
+         url('/fonts/Swiss 721 Bold Condensed.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Pirulen W05 Bold Font */
+@font-face {
+    font-family: 'Pirulen W05 Bold';
+    src: url('/fonts/Pirulen W05 Bold.woff2') format('woff2'),
+         url('/fonts/Pirulen W05 Bold.woff') format('woff'),
+         url('/fonts/Pirulen W05 Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
