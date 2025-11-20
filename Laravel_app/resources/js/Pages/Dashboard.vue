@@ -11,28 +11,29 @@ import Footer from '@/Components/Footer.vue';
 <template>
     <AuthenticatedLayout>
         <div id="bg-dashboard" class=" bg-[#89fe71]">
+            <!-- Section 1 -->
             <div class="w-full">
-              
                 <video
                     class="w-full h-[90vh] object-cover"
                     autoplay muted loop 
                     src="/videos/250515_Sport_Promo_Opener-2.mp4" 
                     type="video/mp4" 
                 ></video>
-    
-              
-            
-              
+            </div>
+            <!-- Section 2 -->
+            <div>
 
-              
+            </div>
+            <!-- Section 3 -->
+            <div>
+            </div>
+            <!-- Section 4 -->
+            <div>
 
-           
+            </div>
+            <!-- Section 5 -->
+            <div>
                 
-           
-
-
-                
-
             </div>
         </div>
         <div class="bg-cyan-500 p-16">
