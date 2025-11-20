@@ -32,9 +32,9 @@ const showingNavigationDropdown = ref(false);
                             <!-- Navigation Links -->
                             <div class="hidden space-x-8 lg:-my-px lg:ms-10 lg:flex " >
                                 <NavLink class="font-swiss text-white text-xl font-bold" :href="route('product')" :active="route().current('product')"> PRODUCTS</NavLink>
-                                <NavLink class="font-swiss text-white text-xl font-bold" href="#"> BEHIND THE HYPE </NavLink>                         
-                                <NavLink class="font-swiss text-white text-xl font-bold" href="#"> NEWS </NavLink>
-                                <NavLink class="font-swiss text-white text-xl font-bold" href="#"> CONTACT US </NavLink>
+                                <NavLink class="font-swiss text-white text-xl font-bold" :href="route('behind-hype')" :active="route().current('behind-hype')"> BEHIND THE HYPE </NavLink>                         
+                                <NavLink class="font-swiss text-white text-xl font-bold" :href="route('news')" :active="route().current('news')"> NEWS </NavLink>
+                                <NavLink class="font-swiss text-white text-xl font-bold" :href="route('contact-us')" :active="route().current('contact-us')"> CONTACT US </NavLink>
                             </div>
                         </div>
 
@@ -137,9 +137,9 @@ const showingNavigationDropdown = ref(false);
                 >
                     <div class="space-y-1 pb-3 pt-2">
                         <ResponsiveNavLink class="font-swiss text-white text-xl font-bold" :href="route('product')" :active="route().current('product')"> PRODUCTS</ResponsiveNavLink>
-                        <ResponsiveNavLink class="font-swiss text-white text-xl font-bold" href="#"> BEHIND THE HYPE </ResponsiveNavLink>                         
-                        <ResponsiveNavLink class="font-swiss text-white text-xl font-bold" href="#"> NEWS </ResponsiveNavLink>
-                        <ResponsiveNavLink class="font-swiss text-white text-xl font-bold" href="#"> CONTACT US </ResponsiveNavLink>
+                        <ResponsiveNavLink class="font-swiss text-white text-xl font-bold" :href="route('behind-hype')" :active="route().current('behind-hype')"> BEHIND THE HYPE </ResponsiveNavLink>                         
+                        <ResponsiveNavLink class="font-swiss text-white text-xl font-bold" :href="route('news')" :active="route().current('news')"> NEWS </ResponsiveNavLink>
+                        <ResponsiveNavLink class="font-swiss text-white text-xl font-bold" :href="route('contact-us')" :active="route().current('contact-us')"> CONTACT US </ResponsiveNavLink>
                     </div>
 
                     <!-- Responsive Settings Options -->

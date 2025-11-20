@@ -22,6 +22,18 @@ Route::get('/product', function () {
     return Inertia::render('Product');
 })->middleware(['auth', 'verified'])->name('product');
 
+Route::get('/contact-us', function () {
+    return Inertia::render('ContactUs');
+})->middleware(['auth', 'verified'])->name('contact-us');
+
+Route::get('/news', function () {
+    return Inertia::render('News');
+})->middleware(['auth', 'verified'])->name('news');
+
+Route::get('/behind-hype', function () {
+    return Inertia::render('BehindHype');
+})->middleware(['auth', 'verified'])->name('behind-hype');
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
