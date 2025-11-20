@@ -17,7 +17,7 @@ const showingNavigationDropdown = ref(false);
                 class="fixed top-0 left-0 right-0 z-50 border-b-4 border-[#7FFA62] bg-[#212121]"
             >
                 <!-- Primary Navigation Menu -->
-                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
                     <div class="flex h-16 justify-between">
                         <div class="flex">
                             <!-- Logo -->
@@ -30,15 +30,15 @@ const showingNavigationDropdown = ref(false);
                             </div>
 
                             <!-- Navigation Links -->
-                            <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex " >
-                                <NavLink class="font-swiss text-white text-xl font-bold" :href="route('dashboard')" :active="route().current('dashboard')"> PRODUCTS</NavLink>
-                                <NavLink class="font-swiss text-white text-xl font-bold"> BEHIND THE HYPE </NavLink>                         
-                                <NavLink class="font-swiss text-white text-xl font-bold"> NEWS </NavLink>
-                                <NavLink class="font-swiss text-white text-xl font-bold"> CONTACT US </NavLink>
+                            <div class="hidden space-x-8 lg:-my-px lg:ms-10 lg:flex " >
+                                <NavLink class="font-swiss text-white text-xl font-bold" :href="route('product')" :active="route().current('product')"> PRODUCTS</NavLink>
+                                <NavLink class="font-swiss text-white text-xl font-bold" href="#"> BEHIND THE HYPE </NavLink>                         
+                                <NavLink class="font-swiss text-white text-xl font-bold" href="#"> NEWS </NavLink>
+                                <NavLink class="font-swiss text-white text-xl font-bold" href="#"> CONTACT US </NavLink>
                             </div>
                         </div>
 
-                        <div class="hidden sm:ms-6 sm:flex sm:items-center">
+                        <div class="hidden lg:ms-6 lg:flex lg:items-center">
                             <!-- Settings Dropdown -->
                             <div class="relative ms-3">
                                 <Dropdown align="right" width="48">
@@ -85,7 +85,7 @@ const showingNavigationDropdown = ref(false);
                         </div>
 
                         <!-- Hamburger -->
-                        <div class="-me-2 flex items-center sm:hidden">
+                        <div class="-me-2 flex items-center lg:hidden">
                             <button
                                 @click="
                                     showingNavigationDropdown =
@@ -133,15 +133,13 @@ const showingNavigationDropdown = ref(false);
                         block: showingNavigationDropdown,
                         hidden: !showingNavigationDropdown,
                     }"
-                    class="sm:hidden"
+                    class="lg:hidden"
                 >
                     <div class="space-y-1 pb-3 pt-2">
-                        <ResponsiveNavLink
-                            :href="route('dashboard')"
-                            :active="route().current('dashboard')"
-                        >
-                            Dashboard
-                        </ResponsiveNavLink>
+                        <ResponsiveNavLink class="font-swiss text-white text-xl font-bold" :href="route('product')" :active="route().current('product')"> PRODUCTS</ResponsiveNavLink>
+                        <ResponsiveNavLink class="font-swiss text-white text-xl font-bold" href="#"> BEHIND THE HYPE </ResponsiveNavLink>                         
+                        <ResponsiveNavLink class="font-swiss text-white text-xl font-bold" href="#"> NEWS </ResponsiveNavLink>
+                        <ResponsiveNavLink class="font-swiss text-white text-xl font-bold" href="#"> CONTACT US </ResponsiveNavLink>
                     </div>
 
                     <!-- Responsive Settings Options -->
@@ -180,7 +178,7 @@ const showingNavigationDropdown = ref(false);
                 class="bg-white shadow dark:bg-gray-800 mt-16"
                 v-if="$slots.header"
             >
-                <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+                <div class="mx-auto max-w-7xl px-4 py-6 md:px-6 lg:px-8">
                     <slot name="header" />
                 </div>
             </header>
