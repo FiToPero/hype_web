@@ -3,10 +3,10 @@ import ApplicationLogo from '@/Components/ApplicationLogo.vue';
 </script>
 <template>
   <footer class="bg-black text-white py-6">
-    <div class="flex items-center  h-[300px] mx-auto px-4 text-center">
-        <div class="flex-1">
-            <ApplicationLogo class="mx-auto mb-4 h-16" />
-            <div class="text-gray-300 text-sm">
+    <div class="grid grid-cols-8  h-[300px] mx-auto px-4">
+        <div class="col-span-4 text-center">
+            <ApplicationLogo class="mb-4 " />
+            <div class="text-gray-300 text-md">
                 <a href="#" class="hover:text-gray-400">Home | </a>
                 <a href="#" class="hover:text-gray-400">Products | </a>
                 <a href="#" class="hover:text-gray-400">Cocktails & Mocktails | </a>
@@ -21,26 +21,27 @@ import ApplicationLogo from '@/Components/ApplicationLogo.vue';
                 <a href="#" class="hover:text-gray-400">Fraud Warning</a>
             </div>
         </div>
-        <div class="flex-1 flex flex-col items-center justify-center text-gray-300">
-            <div>
+        <div class="col-span-2">
+        </div>
+        <div class="col-span-2  text-gray-300  text-left">
+            <div class="flex flex-col items-start">
                 <h5 class="text-md">About Hype</h5> 
-                <p class="w-64 m-4 text-sm">
+                <p class="w-64 my-4 text-sm">
                     Hype is more than just a brand. We're a movement. Led by a former Formula 1® driver since 2000, we're fuelled by passion, creativity and the grit to become the world's most innovative functional product company.
                 </p>
                 <h5 class="text-md">Follow us!</h5>
             </div>
-            <br><br>
-                <div>
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    <i class="fa fa-facebook mx-4" aria-hidden="true"></i>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                    <i class="fa fa-twitter mx-4" aria-hidden="true"></i>
-                    <i class="fa fa-tiktok mx-4" aria-hidden="true"></i>
-                </div>
-            <br><br>
-            <p class="text-sm mt-5 text-md">&copy; 2024 Hype. All rights reserved.</p>
+            <br>
+            <div class="text-2xl">
+                <i class="fab fa-linkedin mx-2" aria-hidden="true"></i>
+                <i class="fab fa-facebook-square mx-2" aria-hidden="true"></i>
+                <i class="fab fa-instagram mx-2" aria-hidden="true"></i>
+                <i class="fab fa-tiktok mx-2" aria-hidden="true"></i>
+            </div>
+            <br>
+            <p class="text-sm mt-2 text-md">&copy; 2024 Hype. All rights reserved.</p>
         </div>
-        
+ 
       
     </div>
   </footer>
