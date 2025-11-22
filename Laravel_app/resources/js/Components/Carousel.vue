@@ -8,7 +8,6 @@ function scrollNext() {
   if (carousel.value) {
     const maxScroll = carousel.value.scrollWidth - carousel.value.clientWidth;
     
-    // Si llegamos al final, volver al inicio
     if (carousel.value.scrollLeft >= maxScroll - 10) {
       carousel.value.scrollTo({ left: 0, behavior: 'smooth' });
     } else {
@@ -23,14 +22,12 @@ function scrollPrev() {
   }
 }
 
-// Iniciar auto-scroll cuando el componente se monta
 onMounted(() => {
   autoScrollInterval = setInterval(() => {
     scrollNext();
-  }, 2000); // Cada 2 segundos
+  }, 2000);
 });
 
-// Limpiar el intervalo cuando el componente se desmonta
 onUnmounted(() => {
   if (autoScrollInterval) {
     clearInterval(autoScrollInterval);
@@ -40,7 +37,6 @@ onUnmounted(() => {
 
 <template>
   <div class="relative">
-    <!-- Botón Previo -->
     <button 
       type="button" 
       class="absolute left-0 top-1/2 -translate-y-1/2 z-30 flex items-center justify-center w-10 h-10 rounded-full bg-white/30 hover:bg-white/50 focus:outline-none focus:ring-4 focus:ring-white"
@@ -52,7 +48,6 @@ onUnmounted(() => {
       <span class="sr-only">Previous</span>
     </button>
 
-    <!-- Contenedor del carousel con scroll horizontal -->
     <div 
       ref="carousel"
       class="flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory px-12 scrollbar-hide"
@@ -93,7 +88,6 @@ onUnmounted(() => {
       </div>
     </div>
 
-    <!-- Botón Siguiente -->
     <button 
       type="button" 
       class="absolute right-0 top-1/2 -translate-y-1/2 z-30 flex items-center justify-center w-10 h-10 rounded-full bg-white/30 hover:bg-white/50 focus:outline-none focus:ring-4 focus:ring-white"
