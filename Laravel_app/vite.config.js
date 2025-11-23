@@ -1,28 +1,37 @@
-import { defineConfig } from 'vite';
+import { defineConfig, loadEnv } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import vue from '@vitejs/plugin-vue';
 
-export default defineConfig({
-    server: {
-        host: true,
-        port: 5173,
-        strictPort: true,
-        hmr: {
-            host: 'localhost',
-        },
-    },
-    plugins: [
-        laravel({
-            input: 'resources/js/app.js',
-            refresh: true,
-        }),
-        vue({
-            template: {
-                transformAssetUrls: {
-                    base: null,
-                    includeAbsolute: false,
-                },
+export default defineConfig(({ mode }) => {
+    const env = loadEnv(mode, process.cwd(), '');
+
+    return {
+        server: {
+            host: '0.0.0.0',
+            port: env.VITE_HMR_PORT,
+            strictPort: true,
+            watch: {
+                usePolling:'true',
             },
-        }),
-    ],
+            hmr: {
+                host: env.VITE_HMR_HOST,
+                port: env.VITE_HMR_PORT,
+                protocol: env.VITE_HMR_PROTOCOL,
+            }
+        },
+        plugins: [
+            laravel({
+                input: 'resources/js/app.js',
+                refresh: true,
+            }),
+            vue({
+                template: {
+                    transformAssetUrls: {
+                        base: null,
+                        includeAbsolute: false,
+                    },
+                },
+            }),
+        ],
+    };
 });
